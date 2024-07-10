@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Imageflow.Server" Version="0.8.3" />
+      <PackageReference Include="Imageflow.Server.HybridCache" Version="0.8.3" />
+      <PackageReference Include="Imageflow.Server.Storage.AzureBlob" Version="0.8.3" />
+      <PackageReference Include="Imageflow.Server.Storage.S3" Version="0.8.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Update="wwwroot\Screenshot 2024-06-20 at 22.28.06.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+    </ItemGroup>
+
+</Project>
